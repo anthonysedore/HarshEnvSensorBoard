@@ -67,33 +67,62 @@
 
   <header>
     <h1>Harsh Environment Sensor Board Phase 2</h1>
-    <p>Welcome to the project website! Explore Design 1 and Design 2 details below.</p>
+    <p>Welcome to the Harsh Environment Sensor Board Phase 2 project website! Explore Design 1 and Design 2 details
+      below.</p>
   </header>
 
   <nav>
     <a href="https://anthonysedore.github.io/HarshEnvSensorBoard/#" onclick="showTab(&#39;home&#39;)">Home</a>
-    <a href="https://anthonysedore.github.io/HarshEnvSensorBoard/design1.html" onclick="showTab(&#39;design1&#39;)">Design 1</a>
-    <a href="https://anthonysedore.github.io/HarshEnvSensorBoard/design2.html" onclick="showTab(&#39;design1&#39;)">Design 2</a>
+    <a href="https://anthonysedore.github.io/HarshEnvSensorBoard/design1.html"
+      onclick="showTab(&#39;design1&#39;)">Design 1</a>
+    <a href="https://anthonysedore.github.io/HarshEnvSensorBoard/design2.html"
+      onclick="showTab(&#39;design1&#39;)">Design 2</a>
   </nav>
 
   <a href="srd.pdf" download="design1document.pdf">Download File</a>
   <p><img src="images/3dmodel.jpg" alt="pcb"></p>
-  
+
+  <h2>Team Members: Jordan Anger, Jasper Everitt, Joseph Portera, Anthony Sedore</h2>
+  <h2>Advisors: Dr. Wilfrido Moreno, Kevin Wolf - Software Logistics</h2>
+
+  <h3>Software Logistics</h3>
+  <p><img
+      src="https://static.wixstatic.com/media/ab9b64_79832c27aa544fc8998f6eb2662b1fec~mv2.png/v1/fill/w_179,h_74,al_c,lg_1,q_85,enc_avif,quality_auto/Blue-Logo-128-52.png"
+      alt="system diagram"></p>
+  <p><a href="https://www.software-logistics.com/">Link to Software Logistics website</a></p>
+
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ul>
 
   <h2>Motivation</h2>
   <p>The purpose of this project was to design a multi-purpose sensor board to be used in harsh environments
     whilst transmitting useful data over a cellular network. Our product allows for reliable remote monitoring
     solutions in larger extreme systems such as heavy machinery and industrial systems.</p>
 
-    <h2>System Diagram</h2>
-    <p><img src="images/systemdiagram.png" alt="system diagram"></p>
+  <h2>System Diagram</h2>
+  <p><img src="images/systemdiagram.png" alt="system diagram"></p>
+  <p>The system diagram shows each of the PCB’s interconnections. The ESP32 is connected to a SIMCOM Networking board as
+    well as the battery and voltage input. It is also connected to the temperature sensor for sensing data.
+  </p>
 
   <h2>Problem Formulation</h2>
   <p>Problem</p>
-  <h2>Video</h2>
+
+
+  <h2>Video Demonstration</h2>
+  <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+  </iframe>
   <p>Video Link</p>
   <h2>Design Process</h2>
-  <p>We designed stuff</p>
+  <h3>Design Philosophy</h3>
+  <p>
+    In our design, the ESP-32 is doing most of the networking and communication. It is controlling the temperature
+    sensor while also sending data to the cellular network for analysis. We wanted these key systems to be powered by
+    battery in case of loss of a direct voltage source
+  </p>
 
 </body>
 
